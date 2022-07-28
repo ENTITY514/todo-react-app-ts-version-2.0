@@ -11,7 +11,7 @@ export const TodoInput:React.FC = () => {
 
     function button_click() {
         createTodo(input_title)
-        inputChange("Введите задачу...")
+        inputChange("")
     }
 
     return (
