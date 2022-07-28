@@ -1,7 +1,7 @@
-import React from 'react'
+import * as React from 'react'
 import style from './page.module.css'
 
-const About = () => {
+export const About = () => {
     return (
         <div className={style.container}>
             Это мой первый тренировочеый проект на typescript. Я решил немного расширить функционал приложения, 
@@ -10,5 +10,3 @@ const About = () => {
         </div>
     )
 }
-
-export default About;

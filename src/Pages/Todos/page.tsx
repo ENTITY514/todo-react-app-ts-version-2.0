@@ -1,14 +1,16 @@
-import React from 'react'
-import { GetStateContext } from '../../Context/context'
+import * as React from 'react'
+import { GetStateContext } from '../../Context/context';
+import { TodoInput } from './Components/TodoInput/todo-input';
+import { TodoList } from './Components/TodoList/todo-list';
 import style from './page.module.css'
 
-const Todos = () => {
-    let state: string = GetStateContext()
+
+export const Todos: React.FC = () => {
+    let {todos} = GetStateContext()
     return (
         <div className={style.container}>
-            {state}
+            <TodoInput />
+            <TodoList items={todos}/>
         </div>
     )
 }
-
-export default Todos;

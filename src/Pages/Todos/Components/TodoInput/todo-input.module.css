@@ -1,0 +1,27 @@
+.container{
+    margin:auto;
+    width: 80%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    position: relative;
+}
+
+.input{
+    padding: 0 20px;
+    font-size: 16px;
+    box-shadow: 0 0px 3px rgb(104, 104, 104);
+    border-radius: 8px;
+    border: none;
+}
+
+.button{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgba(0,0,0,0);
+    border: none;
+}

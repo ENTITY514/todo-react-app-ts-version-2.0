@@ -10,10 +10,12 @@
     margin: auto;
     display: grid;
     grid-template-rows: 80px 1fr 60px;
+    grid-row-gap: 40px;
 }
 
 .main{
-    width:80%;
-    margin:auto;
+    width: 80%;
+    height: 100%;
+    margin: auto;
 }
 
