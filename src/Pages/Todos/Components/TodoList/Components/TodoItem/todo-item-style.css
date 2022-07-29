@@ -4,16 +4,17 @@
     display: grid;
     margin: 10px auto;
     grid-template-columns: 1fr 50px;
+    background-color: white;
   }
-  
+
   .todo_container-exit-active {
     animation: remove 0.6s normal;
   }
-  
+
   .todo_container-enter-active {
     animation: add 0.6s normal;
   }
-  
+
   @keyframes add{
     from{
       opacity: 0;
@@ -24,7 +25,7 @@
       transform:translateX(0)
     }
   }
-  
+
   @keyframes remove {
     from{
       opacity: 1;
@@ -35,7 +36,7 @@
       transform:translateX(-100px);
     }
   }
-  
+
   @media screen and (max-width: 480px) {
     .todo_container{
       width: 90%;
