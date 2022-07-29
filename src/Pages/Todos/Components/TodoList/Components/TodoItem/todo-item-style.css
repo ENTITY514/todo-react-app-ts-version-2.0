@@ -4,7 +4,6 @@
     display: grid;
     margin: 10px auto;
     grid-template-columns: 1fr 50px;
-    background-color: white;
   }
 
   .todo_container-exit-active {

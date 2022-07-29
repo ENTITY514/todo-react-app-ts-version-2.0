@@ -3,6 +3,7 @@
     box-shadow: 0 0px 3px rgb(104, 104, 104);
     border-radius: 8px;
     line-height: 50px;
+    background-color: white;
 }
 
 .remove{
