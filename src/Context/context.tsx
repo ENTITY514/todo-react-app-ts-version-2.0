@@ -35,11 +35,11 @@ export const StateProvider: React.FC<IStateProvider> = ({ children }) => {
     React.useEffect(() => {
         let initial_state: ITodo[] = [];
         for (let i = 0; i < localStorage.length; i++) {
-            let id = localStorage.key(i)
+            let id = localStorage.key(i);
             initial_state.push({
                 id: Number(id),
-                title: localStorage.getItem(id),
-                removeTodo: removeTodo
+                title: String(localStorage.getItem(String(id))),
+                removeTodo
             })
         }
         setTodos(initial_state)
