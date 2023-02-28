@@ -1,9 +1,9 @@
 .title{
     padding: 0 20px;
-    box-shadow: 0 0px 3px rgb(104, 104, 104);
     border-radius: 8px;
     line-height: 50px;
     background-color: white;
+    box-shadow: 2px 2px 7px rgb(104, 104, 104);
 }
 
 .remove{
@@ -15,4 +15,6 @@
     background-size: contain;
     background-color: rgba(0,0,0,0);
     border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 7px rgb(104, 104, 104);
 }

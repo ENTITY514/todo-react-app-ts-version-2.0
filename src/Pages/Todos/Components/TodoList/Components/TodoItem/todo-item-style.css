@@ -1,9 +1,10 @@
 .todo_container{
     width: 80%;
-    height: 50px;
+    min-height: 50px;
     display: grid;
     margin: 10px auto;
     grid-template-columns: 1fr 50px;
+    grid-gap: 10px;
   }
 
   .todo_container-exit-active {

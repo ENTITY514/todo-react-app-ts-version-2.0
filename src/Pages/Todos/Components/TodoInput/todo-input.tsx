@@ -31,6 +31,7 @@ export const TodoInput:React.FC = () => {
             onChange={input_handler} 
             value={input_title}
             onKeyDown={handleKeyPress}
+            placeholder={"Введите свою задачу..."}
             />
             <button className={style.button} onClick={button_click} style={{backgroundImage:"url(icons/plus.png)"}}>
             </button>
